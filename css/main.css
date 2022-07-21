@@ -6,6 +6,7 @@ body {
   font-family: 'Roboto', sans-serif;
   justify-content: center;
   background-color: #87f6d6ff;
+  /* background-color: map-get($color,"color-principal" ); */
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 180px 1fr 100px;
