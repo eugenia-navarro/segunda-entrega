@@ -1,0 +1,46 @@
+/* faq */
+.contenedorextra{
+    height: 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.contenedor2{
+        display: flex;
+        flex-direction: column;
+        justify-content: espace-evenly;
+        align-items: center;
+        width:50%;
+        /* height: fit-content; */
+        margin: auto;
+        padding: 5px;
+        position: relative;
+    }
+    
+.contenedor2 .video__youtube{
+    width: 90%;
+    height: 50%;
+}
+
+.contenedorGrid{
+    background-color: rgb(149, 209, 167);
+    margin: 0;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+
+}
+.itemDeGrid{
+    background-color: #f2e9dc;
+    border: solid #f2e9dc 3px;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 20px;
+    height: 350px;
+    margin: 15px;
+}

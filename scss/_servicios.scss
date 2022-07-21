@@ -1,0 +1,80 @@
+/* sobre mi */
+.titulo{
+    width: 100%;
+    background-color: #394053ff;
+    font-size: 30px;
+    color: #98f3d4ff;
+    padding-left: 10%;
+    height: 55px;
+    }
+.contenedor{
+    display: flex;
+    align-items: center;
+       /*  justify-content: space-around */;
+}
+.contenedor1{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+} 
+
+.contenedor1 .card{
+    width: 330px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    margin: 3px;
+}
+.contenedor1 .card img{
+    width: 330px;
+    height: 220px;
+}
+.contenedor1 .card .card-body h3{
+    font-weight: 400;
+    margin: 10px;
+    height: 70px;
+    align-items: center;
+
+
+}
+.contenedor1 .card p{
+    padding: 0 1em;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: left; 
+}
+.card-body{
+    color: #394053ff;  
+
+}
+
+
+.sobremi_img{
+    width: 40em;
+    height: 40em;
+    background-image: url(./imagenes/textured-mulberry-paper.jpg);
+   /*  border:solid .5em rgb(72, 71, 67); */
+}
+.texto1{
+  /*   font-family: 'Comfortaa', cursive; */
+    font-size: 15px;
+    padding: 10px 10px 10px 40px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    padding: 15px;
+}
+.video__youtube{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    padding: 15px;
+}
+.textoextra{
+    width: 50%;
+    color: #262626ff;
+}

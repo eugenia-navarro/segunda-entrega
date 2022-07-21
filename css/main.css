@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  /* font-family: 'Edu NSW ACT Foundation',cursive; */
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  background-color: #b8f5c9ff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 180px 1fr 100px;
+  grid-template-areas: "header" "main" "footer"; }
+
+/* header */
+header {
+  width: 100%;
+  background-image: url(./imagenes/green-and-lime-watercolor-texture-background.jpg);
+  grid-area: header; }
+
+.logo {
+  height: 4em;
+  width: 4em; }
+
+.container-fluid {
+  margin-left: 150px; }
+
+.navbar-collapse {
+  flex-grow: initial; }
+
+.navbar {
+  background-image: url(./imagenes/green-and-lime-watercolor-texture-background.jpg);
+  margin-top: 30px; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #394053ff;
+  font-size: 1.1rem; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #98f3d4ff;
+  background-color: #394053ff;
+  text-align: center;
+  border-radius: 8px;
+  height: max-content;
+  width: max-content;
+  line-height: 10px;
+  margin: 10px; }
+
+main {
+  background-color: #394053ff;
+  grid-area: main;
+  width: 100%;
+  height: 100%; }
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+  background-color: #87f6d6ff; }
+
+/* sobre mi */
+.titulo {
+  width: 100%;
+  background-color: #394053ff;
+  font-size: 30px;
+  color: #98f3d4ff;
+  padding-left: 10%;
+  height: 55px; }
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  /*  justify-content: space-around */ }
+
+.contenedor1 {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative; }
+
+.contenedor1 .card {
+  width: 330px;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  margin: 3px; }
+
+.contenedor1 .card img {
+  width: 330px;
+  height: 220px; }
+
+.contenedor1 .card .card-body h3 {
+  font-weight: 400;
+  margin: 10px;
+  height: 70px;
+  align-items: center; }
+
+.contenedor1 .card p {
+  padding: 0 1em;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: left; }
+
+.card-body {
+  color: #394053ff; }
+
+.sobremi_img {
+  width: 40em;
+  height: 40em;
+  background-image: url(./imagenes/textured-mulberry-paper.jpg);
+  /*  border:solid .5em rgb(72, 71, 67); */ }
+
+.texto1 {
+  /*   font-family: 'Comfortaa', cursive; */
+  font-size: 15px;
+  padding: 10px 10px 10px 40px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  padding: 15px; }
+
+.video__youtube {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  padding: 15px; }
+
+.textoextra {
+  width: 50%;
+  color: #262626ff; }
+
+/* faq */
+.contenedorextra {
+  height: 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.contenedor2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: espace-evenly;
+  align-items: center;
+  width: 50%;
+  /* height: fit-content; */
+  margin: auto;
+  padding: 5px;
+  position: relative; }
+
+.contenedor2 .video__youtube {
+  width: 90%;
+  height: 50%; }
+
+.contenedorGrid {
+  background-color: #95d1a7;
+  margin: 0;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr; }
+
+.itemDeGrid {
+  background-color: #f2e9dc;
+  border: solid #f2e9dc 3px;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 20px;
+  height: 350px;
+  margin: 15px; }
+
+@media screen and (max-width: 768px) {
+  body {
+    width: fit-content;
+    grid-template-rows: 180px 1fr 100px;
+    padding-left: 5px; }
+  header {
+    align-items: start;
+    justify-content: left; }
+  .titulo {
+    background-color: #218893; }
+  nav {
+    padding-right: 10px;
+    width: fit-content;
+    height: fit-content; }
+  .nav__list__item {
+    flex-direction: column;
+    height: 180px; }
+  .logo__img {
+    height: 3em;
+    width: 3em;
+    margin: 0px;
+    margin-left: 3.5em; }
+  .nav_list__enlace {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1px;
+    letter-spacing: 1px;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
+    margin: 5px;
+    border: solid 1px #3b3a37; }
+  .contenedor {
+    flex-direction: column;
+    padding-left: 15px; }
+  .contenedorextra {
+    flex-direction: column-reverse; }
+  .contenedorGrid {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    height: fit-content; }
+  .itemDeGrid1 {
+    display: flex; }
+  .contenedor2 {
+    width: 90%; } }
+
+@media screen and (max-width: 320px) {
+  body {
+    width: fit-content;
+    grid-template-rows: 200px 1fr 100px;
+    padding-left: 5px; }
+  header {
+    height: fit-content;
+    justify-content: center; }
+  main {
+    /* width: fit-content; */
+    width: 95%; }
+  .nav__list__item {
+    flex-direction: column;
+    height: 150px; }
+  .logo__img {
+    height: 2em;
+    width: 2em;
+    margin: 0px;
+    margin-left: 2em; }
+  .footer {
+    width: 95%; }
+  .titulo {
+    background-color: #06b594; }
+  .textoextra {
+    display: none; }
+  .itemDeGrid1 {
+    display: none; }
+  .video__youtube {
+    width: 100%; } }
