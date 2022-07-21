@@ -3,10 +3,9 @@
   padding: 0; }
 
 body {
-  /* font-family: 'Edu NSW ACT Foundation',cursive; */
   font-family: 'Roboto', sans-serif;
   justify-content: center;
-  background-color: #b8f5c9ff;
+  background-color: #87f6d6ff;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 180px 1fr 100px;
@@ -15,7 +14,7 @@ body {
 /* header */
 header {
   width: 100%;
-  background-image: url(./imagenes/green-and-lime-watercolor-texture-background.jpg);
+  background-image: url(../imagenes/green-and-lime-watercolor-texture-background.jpg);
   grid-area: header; }
 
 .logo {
@@ -29,7 +28,7 @@ header {
   flex-grow: initial; }
 
 .navbar {
-  background-image: url(./imagenes/green-and-lime-watercolor-texture-background.jpg);
+  background-image: url(../imagenes/green-and-lime-watercolor-texture-background.jpg);
   margin-top: 30px; }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -37,7 +36,7 @@ header {
   font-size: 1.1rem; }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #98f3d4ff;
+  color: #87f6d6ff;
   background-color: #394053ff;
   text-align: center;
   border-radius: 8px;
@@ -51,6 +50,35 @@ main {
   grid-area: main;
   width: 100%;
   height: 100%; }
+
+/* FOOTER */
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: #b8f5c9ff;
+  background-image: url(../imagenes/green-and-lime-watercolor-texture-background.jpg);
+  display: flex;
+  justify-content: space-evenly;
+  border: solid 0.15em #72cb8e;
+  grid-area: footer; }
+  .footer__list__item {
+    list-style: none;
+    margin: 1em; }
+  .footer__list__enlace {
+    text-decoration: none;
+    color: #5e6379;
+    font-weight: 600;
+    line-height: 1.5px;
+    letter-spacing: 2px;
+    margin: 2em; }
+  .footer__img {
+    height: 3em;
+    width: 4em;
+    margin: 1em; }
+
+.fondo {
+  background-color: #f0f0f0;
+  /* background-image: url(./imagenes/white-painted-wall-texture-background.jpg); */ }
 
 .carousel-item {
   width: 100%;
