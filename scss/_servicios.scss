@@ -1,9 +1,9 @@
 /* sobre mi */
 .titulo{
     width: 100%;
-    background-color: #394053ff;
-    font-size: 30px;
-    color: #98f3d4ff;
+    background-color:map-get($map: $color, $key:"color-secundario");
+    font-size: 34px;
+    color: map-get($map: $color, $key:"color-principal"); 
     padding-left: 10%;
     height: 55px;
     }
@@ -42,14 +42,14 @@
 }
 .contenedor1 .card p{
     padding: 0 1em;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 20px;
     text-align: left; 
 }
 .card-body{
-    color: #394053ff;  
+    color: map-get($map: $color, $key:"color-secundario" );
 
 }
 
@@ -76,5 +76,5 @@
 }
 .textoextra{
     width: 50%;
-    color: #262626ff;
+    color: map-get($map: $color, $key:"color-secundario");
 }

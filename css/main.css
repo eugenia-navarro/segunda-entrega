@@ -6,7 +6,6 @@ body {
   font-family: 'Roboto', sans-serif;
   justify-content: center;
   background-color: #87f6d6ff;
-  /* background-color: map-get($color,"color-principal" ); */
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 180px 1fr 100px;
@@ -67,7 +66,7 @@ main {
     margin: 1em; }
   .footer__list__enlace {
     text-decoration: none;
-    color: #5e6379;
+    color: #394053ff;
     font-weight: 600;
     line-height: 1.5px;
     letter-spacing: 2px;
@@ -90,8 +89,8 @@ main {
 .titulo {
   width: 100%;
   background-color: #394053ff;
-  font-size: 30px;
-  color: #98f3d4ff;
+  font-size: 34px;
+  color: #87f6d6ff;
   padding-left: 10%;
   height: 55px; }
 
@@ -127,7 +126,7 @@ main {
 
 .contenedor1 .card p {
   padding: 0 1em;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 300;
   letter-spacing: 1px;
   line-height: 20px;
@@ -158,7 +157,7 @@ main {
 
 .textoextra {
   width: 50%;
-  color: #262626ff; }
+  color: #394053ff; }
 
 /* faq */
 .contenedorextra {

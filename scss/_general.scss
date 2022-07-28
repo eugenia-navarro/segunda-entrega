@@ -6,8 +6,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     justify-content: center;
-    background-color: #87f6d6ff;
-    /* background-color: map-get($color,"color-principal" ); */
+    background-color: map-get($color,"color-principal" ); 
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 180px 1fr 100px;
@@ -41,8 +40,8 @@ header{
     font-size: 1.1rem;
 }
 .navbar-light .navbar-nav .nav-link:hover{
-    color:#87f6d6ff ;
-    background-color:#394053ff;
+    color: map-get($map: $color, $key:"color-principal" );
+    background-color: map-get($color,"color-secundario" );
     text-align: center; 
     border-radius: 8px;
     height: max-content; 
@@ -52,7 +51,7 @@ header{
 }
 
 main{
-    background-color: #394053ff;
+    background-color:map-get($map: $color, $key:"color-secundario");
     grid-area: main;
     width: 100%;
     height: 100%;
@@ -61,7 +60,7 @@ main{
 .footer{
     height: 100px;
     width: 100%;
-    background-color:#b8f5c9ff;
+    background-color:map-get($map: $color, $key:"color-terciario");
     background-image: url(../imagenes/green-and-lime-watercolor-texture-background.jpg);
     display: flex;
     justify-content: space-evenly;
@@ -74,7 +73,7 @@ main{
     }
     &__list__enlace{
         text-decoration: none;
-        color: rgb(94, 99, 121);
+        color: map-get($map: $color, $key:"color-secundario" );
         font-weight: 600;
         line-height: 1.5px;
         letter-spacing: 2px;
