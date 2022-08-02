@@ -106,7 +106,7 @@ main {
 .titulo {
   width: 100%;
   background-color: #394053ff;
-  font-size: 34px;
+  font-size: 24px;
   color: #87f6d6ff;
   padding-left: 10%;
   height: 55px; }
@@ -155,12 +155,15 @@ main {
 .sobremi_img {
   width: 40em;
   height: 40em;
-  background-image: url(./imagenes/textured-mulberry-paper.jpg);
-  /*  border:solid .5em rgb(72, 71, 67); */ }
+  background-image: url(./imagenes/textured-mulberry-paper.jpg); }
+
+.parrafo {
+  display: block;
+  padding: auto;
+  margin: 20px; }
 
 .texto1 {
-  /*   font-family: 'Comfortaa', cursive; */
-  font-size: 15px;
+  font-size: 17px;
   padding: 10px 10px 10px 40px;
   letter-spacing: 2px;
   line-height: 30px;
@@ -226,8 +229,10 @@ main {
   header {
     align-items: start;
     justify-content: left; }
-  .titulo {
-    background-color: #218893; }
+  /* .titulo{
+        background-color: map-get($map: $color, $key:"color-cuarto");
+        color: map-get($map: $color, $key:"color-secundario" );
+    } */
   nav {
     padding-right: 10px;
     width: fit-content;
@@ -251,7 +256,10 @@ main {
     border: solid 1px #3b3a37; }
   .contenedor {
     flex-direction: column;
-    padding-left: 15px; }
+    padding-left: 15px;
+    width: 100%; }
+  .fondo {
+    background-color: #98f3d4ff; }
   .contenedorextra {
     flex-direction: column-reverse; }
   .contenedorGrid {
@@ -284,6 +292,8 @@ main {
       border-radius: 6px; }
   .footer {
     width: 100%;
+    padding-left: 85px;
+    height: max-content;
     display: block;
     padding-left: auto;
     padding-right: auto; }
@@ -316,8 +326,10 @@ main {
     width: 2em;
     margin: 0px;
     margin-left: 2em; }
-  .titulo {
-    background-color: #06b594; }
+  /* .titulo{
+        background-color:#06b594 ;
+        width: 100%;
+    } */
   .textoextra {
     display: none; }
   .itemDeGrid1 {
