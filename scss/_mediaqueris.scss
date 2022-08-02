@@ -56,6 +56,51 @@
     .contenedor2{
         width: 90%;
     }
+    /* actualizaciones */
+    
+    .carruselindex{
+        display: none;
+    }
+    .contenedormobile{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+        background-color: white;
+
+        &__caja{
+            padding: 5px;
+            align-content: center;
+            text-align: center;
+        }
+        &__img{
+            display:block;
+            margin: auto;
+            width: 450px;
+            height: 350px;
+            padding: 15px;
+            border-radius: 6px;
+        }
+    }
+    .footer{
+        width: 100%;
+        display: block;
+        padding-left: auto;
+        padding-right: auto;
+            &__list__item{
+            display: flex;
+            margin: 20px;
+            }
+            &__list__enlace{
+            margin: auto;
+            border-radius: 6px;
+            padding: 20px;
+            }
+            &__img{
+                margin-left:180px;
+            }
+        }
+
 
 }
 
@@ -83,9 +128,7 @@
         margin: 0px;
         margin-left: 2em;               
     }
-    .footer{
-    width: 95%;
-    }
+
     .titulo{
         background-color:#06b594 ;
     }
