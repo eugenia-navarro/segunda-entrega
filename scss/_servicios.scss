@@ -6,7 +6,9 @@
     color: map-get($map: $color, $key:"color-principal"); 
     padding-left: 10%;
     height: 55px;
+    margin: auto;
     }
+
 .contenedor{
     display: flex;
     align-items: center;
@@ -76,8 +78,35 @@
     width: 50%;
     height: 50%;
     padding: 15px;
+    margin-bottom: 20px;
 }
 .textoextra{
+    display: block;
     width: 50%;
     color: map-get($map: $color, $key:"color-secundario");
+    padding: auto;
+    margin: 40px;
+    text-align: center;
+}
+.contenedor3{
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;/* 
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    text-align: center;
+}
+.titulo1{
+    width: 100%;
+    background-color:map-get($map: $color, $key:"color-secundario");
+    color: map-get($map: $color, $key:"color-principal"); 
+    padding-left: 10%;
+    height: 55px;
+    margin: auto;
+    padding-top: 10px;
 }

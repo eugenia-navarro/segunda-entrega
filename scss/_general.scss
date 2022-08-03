@@ -63,8 +63,8 @@ header{
 }
 
 main{
-    background-color:map-get($map: $color, $key:"color-secundario");
-    grid-area: main;
+    /* background-color:map-get($map: $color, $key:"color-secundario"); */
+    
     width: 100%;
     height: 100%;
 }
