@@ -21,6 +21,7 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
+    padding: 20px;
 } 
 
 .contenedor1 .card{
@@ -36,9 +37,11 @@
 }
 .contenedor1 .card .card-body h3{
     font-weight: 400;
+    font-size: 22px;
     margin: 10px;
     height: 70px;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 
 
 }
@@ -49,6 +52,7 @@
     letter-spacing: 1px;
     line-height: 20px;
     text-align: left; 
+    font-family: 'Roboto', sans-serif;
 }
 .card-body{
     color: map-get($map: $color, $key:"color-secundario" );
