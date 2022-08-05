@@ -1,11 +1,4 @@
 /* faq */
-.contenedorextra{
-    height: 1fr;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
-}
 .contenedor2{
         display: flex;
         flex-direction: column;
@@ -21,28 +14,6 @@
 .contenedor2 .video__youtube{
     width: 90%;
     height: 50%;
-}
-
-.contenedorGrid{
-    background-color: rgb(149, 209, 167);
-    margin: 0;
-    width: 100%;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 2fr;
-
-}
-.itemDeGrid{
-    background-color: #f2e9dc;
-    border: solid #f2e9dc 3px;
-    height: max-content;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    border-radius: 5px;
-    padding: 20px;
-    height: 350px;
-    margin: 15px;
 }
 
 .conteiner{
@@ -62,10 +33,95 @@
         text-align: center;
         font-size: 20px;
         padding: 20px;
+    }
+    
+    &__accordion{
+        margin-left: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 250px;
+        background-color: white;
+        width: 80%;
+        display: block;
+    }
+    &__titulo{
+        margin: auto;
+        background-color: map-get($map: $color, $key:"color-principal" );
+        color: map-get($map: $color, $key:"color-secundario" );
 
     }
+
+    
 
 }
 .accordion-header{
     font-size: 20px;
+    &-item{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        width: 50%;
+        flex-direction: column;
+        color: map-get($map: $color, $key:"color-secundario" );
+
+    }
+    
+}
+.accordion-button:not(.collapsed){
+    color: map-get($map: $color, $key:"color-principal" );
+    background-color: map-get($map: $color, $key:"color-secundario" );
+}
+.accordion-enlace{
+    text-decoration: none;
+    color: map-get($map: $color, $key:"color-secundario" );
+
+}
+.accordion-body{
+    color: map-get($map: $color, $key:"color-secundario" );
+
+}
+/* contacto */
+.containersection{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    &__dudas{
+        width: 40%;
+        background-color: #f2e9dc;
+        border: solid #f2e9dc 3px;
+        height: max-content;
+        height: 40em;
+        border-radius: 15px;
+        &__video{
+            width: 90%;
+            height: 20em;
+            padding: 10px;
+
+        }
+        &__texto{
+            font-size: 1rem;
+            text-align: center;
+
+        }
+    }
+    &__formulario{
+        width: 40%;
+        background-color: #f2e9dc;
+        border: solid #f2e9dc 3px;
+        height: max-content;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        border-radius: 5px;
+        padding: 50px;
+        padding-top: 100px;
+        padding-left: 70px;
+        height: 40em;
+        margin: 30px;
+        &__item{
+            margin: auto;
+            padding: 20px;
+        }
+    }
 }
