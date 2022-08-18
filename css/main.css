@@ -6,14 +6,7 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   justify-content: center;
-  background-color: #87f6d6ff;
-  /*   display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 180px 1fr 100px;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";  */ }
+  background-color: #87f6d6ff; }
 
 /* header */
 header {
@@ -21,9 +14,7 @@ header {
   justify-content: space-around;
   align-items: center;
   padding-bottom: 20px;
-  /* width: 100%; */
-  background-image: url(../imagenes/green-and-lime-watercolor-texture-background.jpg);
-  /* grid-area: header; */ }
+  background-image: url(../imagenes/green-and-lime-watercolor-texture-background.jpg); }
 
 .logo {
   height: 4em;
@@ -33,8 +24,7 @@ header {
   display: flex;
   flex-wrap: inherit;
   align-items: center;
-  justify-content: space-between;
-  /* margin-left: 150px; */ }
+  justify-content: space-between; }
 
 .navbar-collapse {
   flex-grow: initial; }
@@ -52,12 +42,8 @@ header {
 .navbar-light .navbar-nav .nav-link:hover {
   color: #87f6d6ff;
   background-color: #394053ff;
-  text-align: center;
-  border-radius: 8px;
-  height: max-content;
-  width: max-content;
-  line-height: 10px;
-  margin: 10px; }
+  border-radius: 10px;
+  margin: auto; }
 
 main {
   /* background-color:map-get($map: $color, $key:"color-secundario"); */
@@ -72,7 +58,6 @@ main {
   background-image: url(../imagenes/green-and-lime-watercolor-texture-background.jpg);
   display: flex;
   justify-content: space-evenly;
-  /* border:solid 0.15em rgb(114, 203, 142) */
   grid-area: footer; }
   .footer__list__item {
     list-style: none;
@@ -90,13 +75,14 @@ main {
     margin: 1em; }
 
 .fondo {
-  background-color: #f0f0f0;
-  /* background-image: url(./imagenes/white-painted-wall-texture-background.jpg); */ }
+  background-color: #f0f0f0; }
 
 .carousel-item {
   width: 100%;
   height: 100%;
-  background-color: #87f6d6ff; }
+  background-color: #87f6d6ff;
+  padding: 20px;
+  margin: 10px; }
 
 .contenedormobile {
   display: none; }
@@ -114,7 +100,9 @@ main {
 .contenedor {
   display: flex;
   align-items: center;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  margin: 30px;
+  padding: 10px; }
 
 .contenedor1 {
   display: flex;
@@ -124,6 +112,9 @@ main {
   justify-content: center;
   position: relative;
   padding: 20px; }
+
+.card {
+  width: 18rem; }
 
 .contenedor1 .card {
   width: 330px;
@@ -157,17 +148,17 @@ main {
   color: #394053ff; }
 
 .sobremi_img {
-  width: 40em;
-  height: 40em;
+  width: 30%;
+  height: 30%;
   background-image: url(./imagenes/textured-mulberry-paper.jpg); }
 
 .parrafo {
   display: block;
-  padding: auto;
-  margin: 20px; }
+  padding: 20px;
+  margin: 30px; }
 
 .texto1 {
-  font-size: 17px;
+  font-size: 20px;
   padding: 10px 10px 10px 40px;
   letter-spacing: 2px;
   line-height: 30px;
@@ -231,6 +222,7 @@ main {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 30px;
   margin-right: auto;
   margin-left: auto; }
   .conteiner__encabezado {
@@ -239,8 +231,9 @@ main {
     background-color: white; }
   .conteiner__parrafo {
     text-align: center;
-    font-size: 20px;
-    padding: 20px; }
+    font-size: 22px;
+    padding: 20px;
+    color: #394053ff; }
   .conteiner__accordion {
     margin-left: 200px;
     margin-top: 20px;
@@ -251,18 +244,35 @@ main {
     display: block; }
   .conteiner__titulo {
     margin: auto;
+    height: 50px;
+    font-size: 22px;
+    padding-top: 10px;
     background-color: #87f6d6ff;
     color: #394053ff; }
 
-.accordion-header {
-  font-size: 20px; }
-  .accordion-header-item {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 50%;
-    flex-direction: column;
-    color: #394053ff; }
+.accordion {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #394053ff;
+  /*     &-item{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        width: 50%;
+        flex-direction: column;
+        color: map-get($map: $color, $key:"color-secundario" );
+
+    }
+&-header{
+    font-size: 20px;}
+&-button{
+    font-size: 18px;
+    color: white;
+    background-color: black;
+} */ }
+  .accordion-button {
+    font-size: 20px;
+    height: 50px; }
 
 .accordion-button:not(.collapsed) {
   color: #87f6d6ff;
@@ -290,7 +300,8 @@ main {
     .containersection__dudas__video {
       width: 90%;
       height: 20em;
-      padding: 10px; }
+      padding: 10px;
+      margin: 0 auto; }
     .containersection__dudas__texto {
       font-size: 1rem;
       text-align: center; }
@@ -348,7 +359,7 @@ main {
   .contenedor {
     flex-direction: column;
     padding-left: 15px;
-    width: 100%; }
+    width: 90%; }
   .fondo {
     background-color: #98f3d4ff; }
   .contenedorextra {
@@ -373,7 +384,8 @@ main {
     .contenedormobile__caja {
       padding: 5px;
       align-content: center;
-      text-align: center; }
+      text-align: center;
+      margin: 0 auto; }
     .contenedormobile__img {
       display: block;
       margin: auto;
@@ -383,11 +395,13 @@ main {
       border-radius: 6px; }
   .footer {
     width: 100%;
-    padding-left: 85px;
-    height: max-content;
-    display: block;
-    padding-left: auto;
-    padding-right: auto; }
+    /* padding-left: 85px;
+        height: max-content;
+        display: block;
+        padding-left: auto;
+        padding-right: auto; */
+    display: grid;
+    height: max-content; }
     .footer__list__item {
       display: flex;
       margin: 20px; }
@@ -398,8 +412,9 @@ main {
     .footer__img {
       margin-left: 180px; }
   .contenedor3 {
-    margin-left: 50px;
-    margin-right: 50px; }
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0; }
   .conteiner__accordion {
     margin: auto;
     width: 90%; }
@@ -412,7 +427,23 @@ main {
       padding: 30px; }
     .containersection__formulario {
       width: 90%;
-      padding: 40px; } }
+      padding: 40px; }
+  .sobremi_img {
+    width: 60%;
+    height: 60%; }
+  .contenedor1 {
+    padding: 10px; }
+  .contenedor1 .card {
+    width: 80%;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    margin: 3px; }
+  .contenedor1 .card img {
+    width: 100%;
+    height: 50%; }
+  .video__youtube {
+    width: 100%; } }
 
 @media screen and (max-width: 320px) {
   body {

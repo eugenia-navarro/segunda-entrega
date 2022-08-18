@@ -12,8 +12,10 @@
 .contenedor{
     display: flex;
     align-items: center;
-    justify-content: space-evenly
-       /*  justify-content: space-around */;
+    justify-content: space-evenly;
+    margin: 30px;
+    padding: 10px;
+   
 }
 .contenedor1{
     display: flex;
@@ -25,6 +27,9 @@
     padding: 20px;
 } 
 
+.card{
+    width: 18rem;
+}
 .contenedor1 .card{
     width: 330px;
     border-radius: 8px;
@@ -62,17 +67,17 @@
 
 
 .sobremi_img{
-    width: 40em;
-    height: 40em;
+    width: 30%;
+    height: 30%;
     background-image: url(./imagenes/textured-mulberry-paper.jpg);
 }
 .parrafo{
     display: block;
-    padding: auto;
-    margin: 20px;
+    padding: 20px;
+    margin: 30px;
 }
 .texto1{
-    font-size: 17px;
+    font-size: 20px;
     padding: 10px 10px 10px 40px;
     letter-spacing: 2px;
     line-height: 30px;
