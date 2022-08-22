@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-}
+} 
 
 body{
     margin: 0;
@@ -16,7 +16,7 @@ header{
     align-items: center;
     padding-bottom: 20px;
     background-image: url(../imagenes/green-and-lime-watercolor-texture-background.jpg);
-   }
+}
 .logo{
     height: 4em;
     width: 4em;
@@ -26,7 +26,7 @@ header{
     flex-wrap: inherit;
     align-items: center;
     justify-content: space-between;
-   }
+}
 
 .navbar-collapse{
     flex-grow: initial;
@@ -49,11 +49,10 @@ header{
 }
 
 main{
-    /* background-color:map-get($map: $color, $key:"color-secundario"); */
     width: 100%;
     height: 100%;
 }
-/* FOOTER */
+
 .footer{
     height: 100px;
     width: 100%;
@@ -85,5 +84,5 @@ main{
 
 
 .fondo{
-    background-color: rgb(240, 240, 240);
+    background-color: map-get($map: $color, $key:"color-cuarto")
 }

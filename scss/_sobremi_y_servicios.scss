@@ -7,16 +7,32 @@
     padding-left: 10%;
     height: 55px;
     margin: auto;
-    }
-
+}
 .contenedor{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin: 30px;
     padding: 10px;
-   
 }
+.sobremi_img{
+    width: 30%;
+    height: 30%;
+    background-image: url(./imagenes/textured-mulberry-paper.jpg);
+}
+.parrafo{
+    display: block;
+    padding: 20px;
+    margin: 30px;
+}
+.texto1{
+    font-size: 20px;
+    padding: 10px 10px 10px 40px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    padding: 15px;
+}
+/* servicios */
 .contenedor1{
     display: flex;
     width: 100%;
@@ -26,7 +42,6 @@
     position: relative;
     padding: 20px;
 } 
-
 .card{
     width: 18rem;
 }
@@ -48,8 +63,6 @@
     height: 70px;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-
-
 }
 .contenedor1 .card p{
     padding: 0 1em;
@@ -62,41 +75,6 @@
 }
 .card-body{
     color: map-get($map: $color, $key:"color-secundario" );
-
-}
-
-
-.sobremi_img{
-    width: 30%;
-    height: 30%;
-    background-image: url(./imagenes/textured-mulberry-paper.jpg);
-}
-.parrafo{
-    display: block;
-    padding: 20px;
-    margin: 30px;
-}
-.texto1{
-    font-size: 20px;
-    padding: 10px 10px 10px 40px;
-    letter-spacing: 2px;
-    line-height: 30px;
-    padding: 15px;
-}
-.video__youtube{
-    position: relative;
-    width: 50%;
-    height: 50%;
-    padding: 15px;
-    margin-bottom: 20px;
-}
-.textoextra{
-    display: block;
-    width: 50%;
-    color: map-get($map: $color, $key:"color-secundario");
-    padding: auto;
-    margin: 40px;
-    text-align: center;
 }
 .contenedor3{
     display: flex;
@@ -104,11 +82,7 @@
     margin-right: 130px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 20px;/* 
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-top: 20px;
-    padding-bottom: 20px; */
+    padding: 20px;
     text-align: center;
 }
 .titulo1{
@@ -120,3 +94,12 @@
     margin: auto;
     padding-top: 10px;
 }
+.video__youtube{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+

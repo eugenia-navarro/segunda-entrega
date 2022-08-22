@@ -1,21 +1,4 @@
 /* faq */
-.contenedor2{
-        display: flex;
-        flex-direction: column;
-        justify-content: espace-evenly;
-        align-items: center;
-        width:50%;
-        /* height: fit-content; */
-        margin: auto;
-        padding: 5px;
-        position: relative;
-    }
-    
-.contenedor2 .video__youtube{
-    width: 90%;
-    height: 50%;
-}
-
 .conteiner{
     width: 100%;
     padding-right: 15px;
@@ -23,12 +6,10 @@
     padding-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
-    
     &__encabezado{
         margin: 30px;
         padding: 30px;
         background-color: white;
-
     }
     &__parrafo{
         text-align: center;
@@ -36,7 +17,6 @@
         padding: 20px;
         color: map-get($map: $color, $key:"color-secundario" );
     }
-    
     &__accordion{
         margin-left: 200px;
         margin-top: 20px;
@@ -53,11 +33,7 @@
         padding-top: 10px;
         background-color: map-get($map: $color, $key:"color-principal" );
         color: map-get($map: $color, $key:"color-secundario" );
-
     }
-
-    
-
 }
 .accordion{
     font-family: 'Roboto', sans-serif;
@@ -66,27 +42,7 @@
     &-button{
         font-size: 20px;
         height: 50px;
-
     }
-
-/*     &-item{
-        display: flex;
-        justify-content:space-evenly;
-        align-items: center;
-        width: 50%;
-        flex-direction: column;
-        color: map-get($map: $color, $key:"color-secundario" );
-
-    }
-&-header{
-    font-size: 20px;}
-&-button{
-    font-size: 18px;
-    color: white;
-    background-color: black;
-} */
-
-    
 }
 .accordion-button:not(.collapsed){
     color: map-get($map: $color, $key:"color-principal" );
@@ -95,18 +51,16 @@
 .accordion-enlace{
     text-decoration: none;
     color: map-get($map: $color, $key:"color-secundario" );
-
 }
 .accordion-body{
     color: map-get($map: $color, $key:"color-secundario" );
-
 }
+
 /* contacto */
 .containersection{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    
     &__dudas{
         width: 40%;
         background-color: #f2e9dc;
@@ -119,12 +73,10 @@
             height: 20em;
             padding: 10px;
             margin: 0 auto;
-
         }
         &__texto{
             font-size: 1rem;
             text-align: center;
-
         }
     }
     &__formulario{
